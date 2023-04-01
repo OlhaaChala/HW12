@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+#header {
+    border-bottom: 1px solid #ccc;
+}
+
+#header > .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation, .header-btn {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding-right: 55px;
+}
+
+.menu > a {
+    text-decoration: none;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+
+}
+
+.logo {
+    margin-right: 50px ;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    background-color: #FF6336;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:first-child {
+    margin-right: 10px;
+}
+
+.btn-white {
+    background-color: #fff;
+    line-height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn-small {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+main > .preview {
+    padding: 130px 67px 180px 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.info {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.main-btn {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.text-small {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.image {
+    width: 760px;
+    height: 0 auto;
+}
+
+.companies-wrapper {
+    background-color: #FF9C7D;
+}
+
+.companies {
+    padding: 108px 75px 104px 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title-companies {
+    width: 720px;
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+
+.companies-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    padding: 90px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container.content:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content-text {
+    width: 493px;
+}
+
+.content-text > h2 {
+    text-align: left;
+}
+
+.content-text > p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 30px 0;
+}
+
+.content > a {
+    color: #000;
+}
+
+.content-small-text {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.content-img {
+    width: 632px;
+    height: 632px;
+}
+
+.benefits {
+    background-color: #FFF8E4;
+}
+
+.benefits > .container {
+    padding: 120px 130px 96px 130px;
+}
+
+.benefits .container > h2 {
+    margin-bottom: 70px;
+}
+
+.benefits-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits-item {
+    width: calc((100% - 190px) /3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.benefits-img {
+    width: 160px;
+    height: 120px;
+}
+
+.benefits-item > h3 {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    margin: 0;
+    
+}
+
+.benefits-item > p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+
